@@ -23,6 +23,9 @@ def countingsheep(sheep_array):
     #returning total number of sheeps
     return count        
 
+    #or you can say
+    # return sheep_array.count(True)
+
 #driver code
 sheep = [True,  True,  True,  False,
           True,  True,  True,  True ,
