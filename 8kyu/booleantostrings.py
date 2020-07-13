@@ -7,7 +7,9 @@ def booleantoword(boolean):
         return str('Yes')
     else:
         return str('No')
-
+    
+    #can also say
+    # return 'Yes' if boolean else 'No
 
 
 
