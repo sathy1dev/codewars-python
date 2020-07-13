@@ -21,6 +21,8 @@ def descending(number):
     
     return joined_strings
 
+    #or we can also use this simple line of code
+    # stringss = int("".join(sorted(str(num), reverse = True)))
 #driver code
 number = int(input('Enter your number \t'))
 print('The descending order of your number is ',descending(number))
